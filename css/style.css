@@ -74,6 +74,7 @@
     cursor: pointer;
     padding: 10px;
     border-radius: 10px;
+    transition: 1s;
 }
 
 /*Style de Seccion Index.html*/
@@ -211,9 +212,10 @@
 }
 
 .sacar:hover {
-    background-color: rgba(169, 169, 169, 0.176);
+    background-color: rgba(169, 169, 169, 0.415);
     border-radius: 10px;
     padding: 5px;
+    transition: 1s;
 }
 
 .prueba {
