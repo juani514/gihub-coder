@@ -37,18 +37,18 @@
     border-radius: 10px;
 }
 
-.carousel img{
+.carousel img {
     width: 65dvw;
     aspect-ratio: 16/9;
 }
 
-.flecha{
+.flecha {
     background-color: lightslategray;
     border-radius: 50%;
 }
 
 .introabajoima {
-    padding: 0 ;
+    padding: 0;
     text-align: justify;
 }
 
@@ -56,7 +56,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0px;
-    padding: 10px ;
+    padding: 10px;
     border-top: 2px solid lightslategray;
 }
 
@@ -97,7 +97,7 @@
     text-align: center;
     font-family: "Roboto Slab", serif;
     font-weight: 400;
-   }
+}
 
 .segundotitulo {
     color: lightslategray;
@@ -197,13 +197,20 @@
 
 /*Aca va la Lista Provincias*/
 
-.provinciascontainer{
+.recuadromapa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.provinciascontainer {
     border: 1px solid lightslategray;
     border-radius: 10px;
     background-color: rgb(208, 212, 216);
 }
 
-.escuelaprovincias{
+.escuelaprovincias {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -245,7 +252,7 @@
 
 .flex-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 
@@ -261,16 +268,17 @@
 
 /*Modificar la primer y segunda imagen*/
 .avion {
-    width: 50%;
+    width: 60%;
     border: 2px solid;
-    margin: 10px 170px;
+    margin: auto;
 }
 
 /*Modificar tercera imagen*/
 .avion2 {
-    width: 25%;
+    width: 35%;
     border: 2px solid;
-    margin: 10px 250px;
+    margin: auto;
+
 }
 
 
@@ -325,7 +333,7 @@
 
 @media only screen and (min-width: 768px) {
 
-    .headercontainer{
+    .headercontainer {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -336,8 +344,5 @@
         justify-content: space-between;
         margin: 20px 100px;
         padding: 5px 100px;
-    }
-    .ima{
-        width: 50%;
     }
 }
