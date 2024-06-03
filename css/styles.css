@@ -1,0 +1,314 @@
+/* Style de HEADER */
+/*TITULO*/
+.aviar {
+  color: lightslategray;
+  font-family: fantasy;
+  text-align: center;
+  font-size: 40px;
+}
+
+/*Menu navegable debajo de Titulo*/
+.headercontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  margin: 0px;
+  border-bottom: 2px solid lightslategray;
+}
+
+.palabras {
+  padding-right: 40px;
+  padding-bottom: 10px;
+}
+
+.header {
+  text-decoration: none;
+  color: lightslategray;
+  transition: 1s;
+}
+
+.header:hover {
+  background-color: rgba(169, 169, 169, 0.217);
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.carousel img {
+  width: 65dvw;
+  aspect-ratio: 16/9;
+}
+
+.flecha {
+  background-color: lightslategray;
+  border-radius: 50%;
+}
+
+.introabajoima {
+  padding: 0;
+  text-align: justify;
+}
+
+.footercontainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 10px;
+  border-top: 2px solid lightslategray;
+}
+
+/*Volver al Inicio*/
+.volver {
+  text-decoration: none;
+  font-size: 10px;
+}
+
+/*Syle del Footer y Boton de Inicio Abajo*/
+.inicio {
+  font-size: 10px;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.inicio:hover {
+  background-color: rgba(169, 169, 169, 0.217);
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+/*Style de Seccion Index.html*/
+/* De la Imagen principal y Segundo Titulo*/
+.tituloimagencontainer {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+}
+
+.segundotitulo {
+  color: lightslategray;
+  font-size: 100%;
+  font-size: 20px;
+  text-decoration: underline;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.introabajoima {
+  padding: 20px 30px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+/*Style de seccion Licencias.html*/
+.sacartablalicencia {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+/* Para modificar solo el Titulo*/
+.licencias {
+  color: black;
+  text-align: center;
+  font-size: 100%;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+/*Modificar los Links debajo del Titulo */
+.planeador {
+  color: rgb(7, 42, 102);
+  text-decoration: none;
+  text-align: center;
+}
+
+/*Probando como modificar el estilo de las Tablas Monomotor y PC1 */
+.monomotor {
+  list-style-type: decimal-leading-zero;
+  color: rgb(7, 42, 102);
+  font-weight: 900;
+}
+
+.lala {
+  text-decoration: underline;
+  padding: 5px;
+  text-align: center;
+}
+
+.lo {
+  list-style-type: decimal-leading-zero;
+  color: rgb(7, 42, 102);
+  font-weight: 900;
+}
+
+.infolicenciacontainer {
+  margin: 10px;
+  padding: 20px;
+}
+
+.section-licencias {
+  display: flex;
+  flex-direction: column;
+}
+
+/*Style de seccion Escuela.html */
+/*Titulo de Escuelas de Vuelo*/
+.escuela {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 1rem;
+}
+
+/*Titulo arriba de cada Mapa*/
+.escuelas {
+  text-align: left;
+  font-size: 100%;
+  font-size: 20px;
+}
+
+.mapacontainer {
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+/*Aca va la Lista Provincias*/
+.recuadromapa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.provinciascontainer {
+  border: 1px solid lightslategray;
+  border-radius: 10px;
+  background-color: rgb(208, 212, 216);
+}
+
+.escuelaprovincias {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  padding: 5px;
+}
+
+.sacar {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.sacar:hover {
+  background-color: rgba(169, 169, 169, 0.415);
+  border-radius: 10px;
+  padding: 5px;
+  transition: 1s;
+}
+
+.prueba {
+  cursor: pointer;
+}
+
+.prueba:hover {
+  border: 1px solid black;
+}
+
+/*Style de seccion Mi Trayectoria*/
+.profesional {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/*Para modificar el Titulo*/
+.trayectoria {
+  font-size: 100%;
+  font-size: 40px;
+}
+
+/*Modificar la primer y segunda imagen*/
+.avion {
+  width: 60%;
+  border: 2px solid;
+  margin: auto;
+}
+
+/*Modificar tercera imagen*/
+.avion2 {
+  width: 35%;
+  border: 2px solid;
+  margin: auto;
+}
+
+/*Style de seccion Contacto*/
+.formularioconteiner {
+  background-color: rgba(169, 169, 169, 0.217);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 40px auto;
+  margin-bottom: 200px;
+  padding: 20px 50px 20px 25px;
+  border-radius: 8px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.text {
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.buttoncontainer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 1px;
+}
+
+.button:hover {
+  background-color: rgba(169, 169, 169, 0.176);
+}
+
+.footercontacto {
+  text-align: center;
+}
+
+/*Responsive*/
+@media only screen and (min-width: 768px) {
+  .headercontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .footercontainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+    padding: 5px 100px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
