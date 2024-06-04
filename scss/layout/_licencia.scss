@@ -1,0 +1,76 @@
+main {
+    section {
+        .licencias {
+            color: black;
+            text-align: center;
+            font-size: 100%;
+            font-size: 30px;
+            text-decoration: underline;
+        }
+
+        .planeador {
+            color: rgb(7, 42, 102);
+            text-decoration: none;
+            text-align: center;
+
+            .sacartablalicencia {
+                text-decoration: none;
+                color: black;
+                font-size: 15px;
+            }
+
+            .prueba {
+                cursor: pointer;
+                padding: 10px;
+                margin-bottom: 5px;
+
+                &:hover {
+                    border: 1px solid black;
+                }
+            }
+
+            .inicio {
+                font-size: 10px;
+                color: black;
+                cursor: pointer;
+                text-decoration: none;
+
+                &:hover {
+                    background-color: rgba(169, 169, 169, 0.217);
+                    cursor: pointer;
+                    padding: 10px;
+                    border-radius: 10px;
+                    transition: 1s;
+                }
+            }
+        }
+
+        .infolicenciacontainer {
+            margin: 20px;
+            padding: 25px;
+
+            .section-licencias {
+                display: flex;
+                flex-direction: column;
+
+                .monomotor {
+                    list-style-type: decimal-leading-zero;
+                    color: rgb(7, 42, 102);
+                    font-weight: 900;
+                }
+
+                .lala {
+                    text-decoration: underline;
+                    padding: 5px;
+                    text-align: center;
+                }
+
+                .lo {
+                    list-style-type: decimal-leading-zero;
+                    color: rgb(7, 42, 102);
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}

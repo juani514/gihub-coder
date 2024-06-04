@@ -1,0 +1,39 @@
+header {
+    h1 {
+        color: lightslategray;
+        font-family: fantasy;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    nav {
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            list-style: none;
+            margin: 0px;
+            border-bottom: 2px solid lightslategray;
+
+            li {
+                padding-right: 40px;
+                padding-bottom: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: lightslategray;
+                    transition: 1s;
+
+                    &:hover {
+                        background-color: rgba(169, 169, 169, 0.217);
+                        cursor: pointer;
+                        padding: 5px;
+                        border-radius: 10px;
+
+                    }
+                }
+
+            }
+        }
+    }
+}

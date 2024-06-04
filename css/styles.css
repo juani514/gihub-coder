@@ -1,14 +1,10 @@
-/* Style de HEADER */
-/*TITULO*/
-.aviar {
+header h1 {
   color: lightslategray;
   font-family: fantasy;
   text-align: center;
   font-size: 40px;
 }
-
-/*Menu navegable debajo de Titulo*/
-.headercontainer {
+header nav ul {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,78 +12,20 @@
   margin: 0px;
   border-bottom: 2px solid lightslategray;
 }
-
-.palabras {
+header nav ul li {
   padding-right: 40px;
   padding-bottom: 10px;
 }
-
-.header {
+header nav ul li a {
   text-decoration: none;
   color: lightslategray;
   transition: 1s;
 }
-
-.header:hover {
+header nav ul li a:hover {
   background-color: rgba(169, 169, 169, 0.217);
   cursor: pointer;
   padding: 5px;
   border-radius: 10px;
-}
-
-.carousel img {
-  width: 65dvw;
-  aspect-ratio: 16/9;
-}
-
-.flecha {
-  background-color: lightslategray;
-  border-radius: 50%;
-}
-
-.introabajoima {
-  padding: 0;
-  text-align: justify;
-}
-
-.footercontainer {
-  display: flex;
-  justify-content: space-between;
-  margin: 0px;
-  padding: 10px;
-  border-top: 2px solid lightslategray;
-}
-
-/*Volver al Inicio*/
-.volver {
-  text-decoration: none;
-  font-size: 10px;
-}
-
-/*Syle del Footer y Boton de Inicio Abajo*/
-.inicio {
-  font-size: 10px;
-  color: black;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.inicio:hover {
-  background-color: rgba(169, 169, 169, 0.217);
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 10px;
-  transition: 1s;
-}
-
-/*Style de Seccion Index.html*/
-/* De la Imagen principal y Segundo Titulo*/
-.tituloimagencontainer {
-  display: block;
-  justify-content: center;
-  text-align: center;
-  font-family: "Roboto Slab", serif;
-  font-weight: 400;
 }
 
 .segundotitulo {
@@ -101,161 +39,178 @@
 }
 
 .introabajoima {
-  padding: 20px 30px;
-  margin-top: 50px;
-  margin-bottom: 200px;
+  margin: 20px;
+  padding: 0;
+  text-align: justify;
 }
 
-/*Style de seccion Licencias.html*/
-.sacartablalicencia {
+.carousel img {
+  width: 65dvw;
+  aspect-ratio: 16/9;
+}
+
+.flecha {
+  background-color: lightslategray;
+  border-radius: 50%;
+}
+
+main section .licencias {
+  color: black;
+  text-align: center;
+  font-size: 100%;
+  font-size: 30px;
+  text-decoration: underline;
+}
+main section .planeador {
+  color: rgb(7, 42, 102);
+  text-decoration: none;
+  text-align: center;
+}
+main section .planeador .sacartablalicencia {
   text-decoration: none;
   color: black;
   font-size: 15px;
 }
-
-/* Para modificar solo el Titulo*/
-.licencias {
+main section .planeador .prueba {
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+main section .planeador .prueba:hover {
+  border: 1px solid black;
+}
+main section .planeador .inicio {
+  font-size: 10px;
   color: black;
-  text-align: center;
-  font-size: 100%;
-  font-size: 30px;
-  text-decoration: underline;
-}
-
-/*Modificar los Links debajo del Titulo */
-.planeador {
-  color: rgb(7, 42, 102);
+  cursor: pointer;
   text-decoration: none;
-  text-align: center;
 }
-
-/*Probando como modificar el estilo de las Tablas Monomotor y PC1 */
-.monomotor {
+main section .planeador .inicio:hover {
+  background-color: rgba(169, 169, 169, 0.217);
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 1s;
+}
+main section .infolicenciacontainer {
+  margin: 20px;
+  padding: 25px;
+}
+main section .infolicenciacontainer .section-licencias {
+  display: flex;
+  flex-direction: column;
+}
+main section .infolicenciacontainer .section-licencias .monomotor {
   list-style-type: decimal-leading-zero;
   color: rgb(7, 42, 102);
   font-weight: 900;
 }
-
-.lala {
+main section .infolicenciacontainer .section-licencias .lala {
   text-decoration: underline;
   padding: 5px;
   text-align: center;
 }
-
-.lo {
+main section .infolicenciacontainer .section-licencias .lo {
   list-style-type: decimal-leading-zero;
   color: rgb(7, 42, 102);
   font-weight: 900;
 }
 
-.infolicenciacontainer {
-  margin: 10px;
-  padding: 20px;
-}
-
-.section-licencias {
+main section .escuela {
   display: flex;
   flex-direction: column;
-}
-
-/*Style de seccion Escuela.html */
-/*Titulo de Escuelas de Vuelo*/
-.escuela {
   text-align: center;
   font-size: 30px;
   margin-top: 1rem;
 }
-
-/*Titulo arriba de cada Mapa*/
-.escuelas {
-  text-align: left;
-  font-size: 100%;
-  font-size: 20px;
+main section a {
+  font-size: 10px;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
 }
-
-.mapacontainer {
-  margin: 10px;
-  padding: 20px;
-  font-size: 20px;
+main section a:hover {
+  background-color: rgba(169, 169, 169, 0.217);
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 1s;
 }
-
-/*Aca va la Lista Provincias*/
-.recuadromapa {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.provinciascontainer {
+main section .provinciascontainer {
   border: 1px solid lightslategray;
   border-radius: 10px;
   background-color: rgb(208, 212, 216);
 }
-
-.escuelaprovincias {
+main section .provinciascontainer .escuelaprovincias {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   list-style: none;
   padding: 5px;
 }
-
-.sacar {
+main section .provinciascontainer .escuelaprovincias .sacar {
   text-decoration: none;
   color: black;
   font-size: 20px;
 }
-
-.sacar:hover {
+main section .provinciascontainer .escuelaprovincias .sacar:hover {
   background-color: rgba(169, 169, 169, 0.415);
   border-radius: 10px;
   padding: 5px;
   transition: 1s;
 }
-
-.prueba {
-  cursor: pointer;
+main section .recuadromapa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+main section .recuadromapa .mapacontainer {
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+main section .recuadromapa .escuelas {
+  text-align: left;
+  font-size: 100%;
+  font-size: 20px;
 }
 
-.prueba:hover {
-  border: 1px solid black;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-/*Style de seccion Mi Trayectoria*/
-.profesional {
+.felx-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}
+.felx-container .escuela {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 1rem;
+}
+.felx-container .profesional {
   display: flex;
   flex-direction: column;
   padding: 10px;
 }
-
-.flex-container {
-  display: flex;
-  flex-direction: column;
+.felx-container .profesional .avion {
+  width: 50%;
+  border: 2px solid;
+  margin: auto;
 }
-
-/*Para modificar el Titulo*/
-.trayectoria {
-  font-size: 100%;
-  font-size: 40px;
-}
-
-/*Modificar la primer y segunda imagen*/
-.avion {
-  width: 60%;
+.felx-container .profesional .avion2 {
+  width: 30%;
   border: 2px solid;
   margin: auto;
 }
 
-/*Modificar tercera imagen*/
-.avion2 {
-  width: 35%;
-  border: 2px solid;
-  margin: auto;
-}
-
-/*Style de seccion Contacto*/
-.formularioconteiner {
+main section .formularioconteiner {
   background-color: rgba(169, 169, 169, 0.217);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   max-width: 500px;
@@ -264,39 +219,55 @@
   padding: 20px 50px 20px 25px;
   border-radius: 8px;
 }
-
-.formulario {
+main section .formularioconteiner form .formulario {
   display: flex;
   flex-direction: column;
   margin: 10px;
 }
-
-.text {
+main section .formularioconteiner form .formulario .text {
   padding: 12px;
   border-radius: 5px;
   border: 1px solid black;
 }
-
-.buttoncontainer {
+main section .formularioconteiner form .buttoncontainer {
   text-align: center;
   margin-top: 10px;
 }
-
-.button {
+main section .formularioconteiner form .buttoncontainer .button {
   cursor: pointer;
   padding: 10px;
   border-radius: 1px;
 }
-
-.button:hover {
+main section .formularioconteiner form .buttoncontainer .button:hover {
   background-color: rgba(169, 169, 169, 0.176);
 }
 
-.footercontacto {
-  text-align: center;
+.footercontainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 10px;
+  border-top: 2px solid lightslategray;
+}
+.footercontainer a {
+  font-size: 10px;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+.footercontainer a:hover {
+  background-color: rgba(169, 169, 169, 0.217);
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 1s;
 }
 
-/*Responsive*/
+.volver {
+  text-decoration: none;
+  font-size: 10px;
+}
+
 @media only screen and (min-width: 768px) {
   .headercontainer {
     display: flex;

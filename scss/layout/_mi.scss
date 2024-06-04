@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.felx-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+
+    .escuela {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 1rem;
+    }
+
+    .profesional {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+
+        .avion {
+            width: 50%;
+            border: 2px solid;
+            margin: auto;
+        }
+
+        .avion2 {
+            width: 30%;
+            border: 2px solid;
+            margin: auto;
+        }
+    }
+}

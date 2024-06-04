@@ -1,0 +1,13 @@
+@media only screen and (min-width: 768px) {
+    .headercontainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .footercontainer {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 100px;
+      padding: 5px 100px;
+    }
+  }
