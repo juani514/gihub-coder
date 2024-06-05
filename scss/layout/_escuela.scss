@@ -1,79 +1,70 @@
-main {
-    section {
-        .escuela {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            font-size: 30px;
-            margin-top: 1rem;
-        }
+.escuela {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 1rem;
+}
 
-        a {
-            font-size: 10px;
-            color: black;
-            cursor: pointer;
+a {
+    font-size: 10px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+        background-color: rgba(169, 169, 169, 0.217);
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 10px;
+        transition: 1s;
+    }
+}
+
+.provinciascontainer {
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(224, 167, 122, 1) 0%, rgba(203, 219, 233, 1) 100%);
+    
+
+    .escuelaprovincias {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+        padding: 5px;
+
+        .sacar {
             text-decoration: none;
+            color: black;
+            font-size: 20px;
 
             &:hover {
-                background-color: rgba(169, 169, 169, 0.217);
-                cursor: pointer;
-                padding: 10px;
+                background-color: rgba(169, 169, 169, 0.415);
                 border-radius: 10px;
+                padding: 5px;
                 transition: 1s;
             }
         }
+    }
+}
 
+.recuadromapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .mapacontainer {
+        margin: 10px;
+        padding: 20px;
+        font-size: 20px;
     }
 
-    section {
-        .provinciascontainer {
-            border: 1px solid lightslategray;
-            border-radius: 10px;
-            background-color: rgb(208, 212, 216);
-
-            .escuelaprovincias {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
-                list-style: none;
-                padding: 5px;
-
-                .sacar {
-                    text-decoration: none;
-                    color: black;
-                    font-size: 20px;
-
-                    &:hover {
-                        background-color: rgba(169, 169, 169, 0.415);
-                        border-radius: 10px;
-                        padding: 5px;
-                        transition: 1s;
-                    }
-                }
-            }
-        }
+    .escuelas {
+        text-align: left;
+        font-size: 100%;
+        font-size: 20px;
     }
 
-    section {
-        .recuadromapa {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-bottom: 20px;
-
-            .mapacontainer {
-                margin: 10px;
-                padding: 20px;
-                font-size: 20px;
-            }
-
-            .escuelas {
-                text-align: left;
-                font-size: 100%;
-                font-size: 20px;
-            }
-
-        }
-
-    }
 }

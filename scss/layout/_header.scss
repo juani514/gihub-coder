@@ -4,6 +4,7 @@ header {
         font-family: fantasy;
         text-align: center;
         font-size: 40px;
+        padding: 20px;
     }
 
     nav {
@@ -20,6 +21,8 @@ header {
                 padding-bottom: 10px;
 
                 a {
+                    font-size: 15px;
+                    padding: 15px;
                     text-decoration: none;
                     color: lightslategray;
                     transition: 1s;

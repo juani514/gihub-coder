@@ -1,3 +1,9 @@
+//BODY//
+@import "./base/body";
+
+//ANIMACION BODY
+@import "./layout/animation";
+
 //HEADER//
 @import "./layout/header";
 
@@ -27,4 +33,3 @@
 
 //MEDIAS QUERIES//
 @import "./media-queries/media-queries";
-
