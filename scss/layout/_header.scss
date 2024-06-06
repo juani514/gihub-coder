@@ -1,6 +1,13 @@
+$principal: lightslategray;
+
+@mixin discol {
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     h1 {
-        color: lightslategray;
+        color: $principal;
         font-family: fantasy;
         text-align: center;
         font-size: 40px;
@@ -9,12 +16,11 @@ header {
 
     nav {
         ul {
-            display: flex;
-            flex-direction: column;
+            @include discol();
             align-items: center;
             list-style: none;
             margin: 0px;
-            border-bottom: 2px solid lightslategray;
+            border-bottom: 2px solid $principal;
 
             li {
                 padding-right: 40px;
@@ -24,7 +30,7 @@ header {
                     font-size: 15px;
                     padding: 15px;
                     text-decoration: none;
-                    color: lightslategray;
+                    color: $principal;
                     transition: 1s;
 
                     &:hover {

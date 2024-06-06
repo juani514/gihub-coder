@@ -1,17 +1,17 @@
-
-
 .segundotitulo {
-    color: lightslategray;
-    font-size: 100%;
+    color: black;
     font-size: 20px;
     text-decoration: underline;
     align-items: center;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
 }
 
 .introabajoima {
-    margin: 20px;
-    padding: 0;
-    text-align: justify;
+    @extend .segundotitulo;
+    font-size: 15px;
+    text-decoration: none;
+
 }
