@@ -171,27 +171,20 @@ header nav ul li a:hover {
 }
 
 .infolicenciacontainer {
+  display: flex;
+  flex-direction: column;
   margin: 20px;
   padding: 25px;
 }
 .infolicenciacontainer .section-licencias {
+  padding: 20px;
+}
+.infolicenciacontainer .section-licencias .avionlic {
   display: flex;
   flex-direction: column;
-}
-.infolicenciacontainer .section-licencias .monomotor {
-  list-style-type: decimal-leading-zero;
-  color: rgb(7, 42, 102);
-  font-weight: 900;
-}
-.infolicenciacontainer .section-licencias .lala {
-  text-decoration: underline;
-  padding: 5px;
-  text-align: center;
-}
-.infolicenciacontainer .section-licencias .lo {
-  list-style-type: decimal-leading-zero;
-  color: rgb(7, 42, 102);
-  font-weight: 900;
+  width: 30%;
+  margin: auto;
+  padding-top: 20px;
 }
 
 .escuela {
@@ -282,13 +275,13 @@ a:hover {
 }
 .felx-container .profesional .avion {
   width: 50%;
-  border: 2px solid;
   margin: auto;
+  padding-top: 20px;
 }
 .felx-container .profesional .avion2 {
   width: 30%;
-  border: 2px solid;
   margin: auto;
+  padding-top: 20px;
 }
 
 .formularioconteiner {

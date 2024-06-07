@@ -44,29 +44,20 @@
 }
 
 .infolicenciacontainer {
+    display: flex;
+    flex-direction: column;
     margin: 20px;
     padding: 25px;
 
     .section-licencias {
-        display: flex;
-        flex-direction: column;
+        padding: 20px;
 
-        .monomotor {
-            list-style-type: decimal-leading-zero;
-            color: rgb(7, 42, 102);
-            font-weight: 900;
-        }
-
-        .lala {
-            text-decoration: underline;
-            padding: 5px;
-            text-align: center;
-        }
-
-        .lo {
-            list-style-type: decimal-leading-zero;
-            color: rgb(7, 42, 102);
-            font-weight: 900;
+        .avionlic {
+          display: flex;
+          flex-direction: column;
+          width: 30%;
+          margin: auto;
+          padding-top: 20px; 
         }
     }
 }
