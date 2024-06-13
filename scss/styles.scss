@@ -1,11 +1,14 @@
+//FOOTER//
+@import "./layout/footer";
+
+//HEADER//
+@import "./layout/header";
+
 //BODY//
 @import "./base/body";
 
 //ANIMACION BODY
 @import "./layout/animation";
-
-//HEADER//
-@import "./layout/header";
 
 //PORTADA//
 @import "./layout/portada";
@@ -24,9 +27,6 @@
 
 //CONTACTO//
 @import "./layout/contacto";
-
-//FOOTER//
-@import "./layout/footer";
 
 //VOLVER//
 @import "./layout/volver";
