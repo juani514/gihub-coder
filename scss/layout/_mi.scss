@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.felx-container {
+.flex-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +12,12 @@
     .profesional {
         display: flex;
         flex-direction: column;
-        padding: 10px;
+        padding-top: 15px;
+
+        .estructurar {
+            text-align: justify;
+            padding: 0px 15px;
+        }
 
         .avion {
             width: 50%;

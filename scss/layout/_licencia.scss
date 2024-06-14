@@ -52,6 +52,11 @@
     .section-licencias {
         padding: 20px;
 
+        .estructurar2{
+            text-align: justify;
+            padding: 0px 15px;
+        }
+
         .avionlic {
           display: flex;
           flex-direction: column;
