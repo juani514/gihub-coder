@@ -1,5 +1,5 @@
-# ESTE ES MI PRIMER REPOSITORIO
+# ESTA ES LA ENTREGA DE MI PROYECTO FINAL
 
-Esta es mi primer pagina web, en la cual estoy aplicando los temas pedidos para la entrega.
+Mi primer pagina web, en la cual aplique todos los temas aprendidos a lo largo del curso.
 
-Como comentaba anteriormente, en esta entrega, he agregado el uso de bootsrap en forma de carousel y aplicado los conocimiento para hacer un repositorio remoto.
+Como comentaba anteriormente, en esta entrega, he agregado los conocimiento aprendidos (semantica,bootstrap, animaciones, medias queries, metatags, sass, entre otros) para la entrega del Proyecto Final.
